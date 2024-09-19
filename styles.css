@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color:rgb(255, 219, 172);
+    color: #110a03;
+    padding: 30;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+form{
+    background-color: darkcyan;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rbgs(0,0,0,0.15);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+form:hower{
+    transform: translateY(-10px);
+}
+h1 {
+    font-family: Arial, sans-serif;
+    color: black; 
+    font-size: 36px;
+    text-align: center;
+}
+hr {
+    border: 1px solid black;
+    height: 5px;
+    background-color: black; 
+    width: 100%; 
+    margin: 10px 0; 
+}
+form h2{
+    color: #110a03;
+    margin-bottom: 10px;
+}
+label{
+    font-weight:900px;
+    display:block;
+    color: #110a03;
+    margin-bottom: 5px;
+}
+button{
+    width: 50%;
+    padding: 7px;
+    margin-bottom: 1px;
+    background-color: rgb(177, 158, 16);
+    color: black;
+    border: 1px solid black;
+    border-color:black;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button :hover{
+    background-color: chocolate;
+}
+input[type="text"]{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-color: darkgrey;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+input[type="number"]{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-color: darkgrey;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+input[type="degree type"]{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-color: darkgrey;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+input[type="job title"]{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-color: darkgrey;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+input[type="technical skills and soft skills"]{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-color: darkgrey;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+input[type="description"]{
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-color: darkgrey;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+#resumeOutput {
+    padding: 20px;
+    background-color: darkcyan;
+    border-radius: 10px;
+    box-shadow: 0 1opx 30px;
+    max-width: 600px;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#resumeOutput h2 {
+    color: #333;
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#resumeOutput p {
+font-size: 1.1rem;
+line-height: 1.6;
+margin-bottom: 10px;
+}
+#resumeOutput strong {
+    color: #000000;
+}
+body::before {
+    color: '';
+    position: absolute;
+    top: -50px;
+    bottom: -50px;
+    right: -50px;
+    left: -50px;
+    background: linear-gradient(120dag , #fff , #ccc);
+    z-index: -1;
+    filter: blur(100px);
+}
