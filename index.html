@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="resumeForm">
+<b><u><i><h1>RESUME MAKING FORM</h1></b></u></i><hr /><br>
+<i><b><u><h2>Personal Information</h2></u></b></i>
+   <label for="name">Name: </label>
+    <input type="text" id="name" name="name"required><br><br>
+
+    <label for="email">Email: </label>
+    <input type="text" id="email" name="email"required><br><br>
+
+    <label for="phone">Phone: </label>
+    <input type="number" id="phone" name="phone"required><br><br>
+
+    <i><b><u><h2>Education</h2></u></b></i>
+        <label for="education">Education: </label>
+        <input type="degree type" id="education" name="education"required><br><br>
+    
+        <i><b><u><h2>Work Experience</h2></u></b></i>
+            <label for="experience">Experience: </label>
+            <input type="job title" id="experience" name="experience"required>
+            <br><br>
+
+            <i><b><u><h2>Skills</h2></u></b></i>
+                <label for="skills">Skills: </label>
+                <input type="technical skills and soft skills" id="skills" name="skills"required>
+                <br><br>
+
+                <i><b><u><h2>Anything Else Would You Like To Say</h2></u></b></i>
+                <label for="others">Others: </label>
+                <input type="description" id="others" name="others"required><br><br>
+
+<button type="Submit">Generate Resume</button>
+    </form>
+    <div id="resumeOutput"></div>
+    <script src="index.js"></script>
+
+</body>
+</html>
